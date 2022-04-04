@@ -1,0 +1,31 @@
+.contact{
+    background: black;
+    padding:30px;
+}
+.contact h1{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 3rem;
+    
+}
+.contact form{
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+}
+input{
+    background: black;
+    border-radius: 50px;
+    border: 2px antiquewhite solid;
+    height: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+textarea{
+    background: black;
+    border: 2px antiquewhite solid;
+    border-radius: 10px;
+    margin: 20px;
+    height: 100px;
+    padding: 10px 20px;
+}

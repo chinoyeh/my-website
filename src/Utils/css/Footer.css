@@ -1,0 +1,17 @@
+.footer{
+    background: black;
+    color:antiquewhite;
+        padding: 30px;
+
+  
+}
+.footlinks{
+    margin: 0;
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+font-size: 1.5rem;
+
+
+
+}
