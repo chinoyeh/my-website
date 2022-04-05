@@ -3,6 +3,7 @@ import Footer from '../Utils/Footer'
 import Navbar from '../Utils/Navbar'
 import About from './About'
 import Contact from './Contact'
+import Portfolio from './Portfolio'
 import './css/Home.css'
 
 const Home = () => {
@@ -18,6 +19,10 @@ const Home = () => {
     </div>
 
     </section>
+    <section id ='portfolio'>
+
+     <Portfolio/>
+</section>
     <section id ='about'>
 
       <About/>

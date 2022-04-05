@@ -20,6 +20,7 @@ input{
     height: 50px;
     margin: 20px;
     padding: 10px 20px;
+    color:antiquewhite;
 }
 textarea{
     background: black;
@@ -29,3 +30,28 @@ textarea{
     height: 100px;
     padding: 10px 20px;
 }
+@media screen and (max-width: 1100px) {
+    .contact form{
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+    }
+    input{
+        background: black;
+        border-radius: 50px;
+        border: 2px antiquewhite solid;
+        height: 50px;
+        margin: 20px;
+        padding: 10px 20px;
+    }
+    textarea{
+        background: black;
+        border: 2px antiquewhite solid;
+        border-radius: 10px;
+        margin: 20px;
+        height: 100px;
+        padding: 10px 20px;
+    }
+    
+
+  }
