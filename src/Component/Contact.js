@@ -43,6 +43,7 @@ const Contact = () => {
     onChange={handleChange} />
                <textarea placeholder='Enter your Message'   name='message' value={toSend.message}
     onChange={handleChange}/>
+     <button type='submit'>Send</button>
            </form>
        </div>
    </section>

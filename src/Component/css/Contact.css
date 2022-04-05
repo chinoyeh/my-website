@@ -29,6 +29,15 @@ textarea{
     margin: 20px;
     height: 100px;
     padding: 10px 20px;
+    color:antiquewhite;
+}
+button{
+    background: antiquewhite;
+    border-radius: 50px;
+    height: 40px;
+ width: 30%;
+ margin: auto;
+    color: black;
 }
 @media screen and (max-width: 1100px) {
     .contact form{
