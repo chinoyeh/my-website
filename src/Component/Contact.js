@@ -14,16 +14,22 @@ const Contact = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     send(
-      'SERVICE ID',
-      'TEMPLATE ID',
+      'service_bef9tj9',
+      'template_t3ktf1i',
       toSend,
        "5su0JbqvtIs7_iDRr",
     )
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
+      alert('Message Sent')
+      setToSend({
+        from_name: '',
+        to_name: '',
+        message: '',
+        reply_to: '',
+      })
       })
       .catch((err) => {
-        console.log('FAILED...', err);
+        alert('Message Failed to Send')
       });
   };
   const handleChange = (e) => {
@@ -43,7 +49,7 @@ const Contact = () => {
     onChange={handleChange} />
                <textarea placeholder='Enter your Message'   name='message' value={toSend.message}
     onChange={handleChange}/>
-     <button type='submit'>Send</button>
+     <button type='submit' onClick={onSubmit}>Send</button>
            </form>
        </div>
    </section>
