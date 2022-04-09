@@ -4,7 +4,6 @@
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     width: 100%;
-
     top: 0; /* At the top */
     z-index: 99;
 
@@ -14,7 +13,7 @@
     justify-content: space-evenly;
     list-style: none;
     margin-top: 0;
-    padding-top: 3%;
+    padding-top: 1%;
   
  
 }
@@ -30,12 +29,13 @@
 
 .navlinks a{
     text-decoration: none;
-    color:antiquewhite;
+    color:white;
     padding: 100 auto;
     font-weight: bold;
   
 }
 @media screen and (max-width: 480px) {
+
  .links{
      display: flex;
      justify-content: space-between;
@@ -43,12 +43,14 @@
      background: black; ;
     
      margin-top: 0;
+     margin-bottom: 0;
      
  }
  .links h3{
     font-size: 1.3rem;
     font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 10px;
     color: white;
     letter-spacing: 2px;
 
