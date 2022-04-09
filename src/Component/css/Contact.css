@@ -4,7 +4,7 @@
 }
 .contact h1{
     text-align: center;
-    color:antiquewhite;
+    color:white;
     font-size: 3rem;
     
 }
@@ -16,28 +16,31 @@
 input{
     background: black;
     border-radius: 50px;
-    border: 2px antiquewhite solid;
+    border: 2px white solid;
     height: 50px;
     margin: 20px;
     padding: 10px 20px;
-    color:antiquewhite;
+    color:white;
 }
 textarea{
     background: black;
-    border: 2px antiquewhite solid;
+    border: 2px white solid;
     border-radius: 10px;
     margin: 20px;
     height: 100px;
     padding: 10px 20px;
-    color:antiquewhite;
+    color:white;
 }
 button{
-    background: antiquewhite;
+    background: white;
     border-radius: 50px;
     height: 40px;
  width: 30%;
  margin: auto;
+ border:none;
     color: black;
+    font-weight: bold;
+    font-size: 1rem;
 }
 @media screen and (max-width: 1100px) {
     .contact form{
@@ -48,14 +51,14 @@ button{
     input{
         background: black;
         border-radius: 50px;
-        border: 2px antiquewhite solid;
+        border: 2px white solid;
         height: 30px;
         margin: 20px;
         padding: 10px 20px;
     }
     textarea{
         background: black;
-        border: 2px antiquewhite solid;
+        border: 2px white solid;
         border-radius: 10px;
         margin: 20px;
         height: 100px;
