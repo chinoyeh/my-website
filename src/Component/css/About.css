@@ -5,7 +5,7 @@
 .about h1{
     text-align: center;
     font-size: 3rem;
-    color: gray;
+    color: rgb(0, 0, 0);
 }
 .about-content{
     padding: 20px;
@@ -22,7 +22,7 @@
      margin: auto;
  }
  .about-content p{
-     color: gray;
+     color: rgb(0, 0, 0);
      line-height: 50px;
      font-size: 1.5rem;
  }
@@ -42,6 +42,11 @@
      
         display: grid;
     }
+    .about h1{
+        text-align: center;
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
     .about-content img{
        max-width: 60%;
         margin: auto;
@@ -52,7 +57,7 @@
         margin: auto;
     }
     .about-content p{
-        color: gray;
+        color: rgb(0, 0, 0);
         line-height: 50px;
         font-size: 1rem;
     }

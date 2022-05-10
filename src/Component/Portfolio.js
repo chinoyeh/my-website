@@ -5,9 +5,10 @@ import {Data} from '../Utils/Data'
 const Portfolio = () => {
   return (
   <React.Fragment>
-  <section className='portfolio'>
-      <h1>My Work</h1>
+  <div className='portfolio'>
+  <h1>My Work</h1>
       <div className='portfolio-content'>
+     
           {Data.map((datas)=>{
             const {id,  title ,image, description, link,} =datas
             return <div key ={id} className="projects">
@@ -33,7 +34,7 @@ const Portfolio = () => {
     
       </div>
     
-  </section>
+  </div>
 
 
   </React.Fragment>

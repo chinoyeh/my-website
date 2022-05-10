@@ -2,7 +2,7 @@
     text-align: center;
    
     font-size: 3rem;
-    color: gray;
+    color: black;
 }
 .portfolio-content{
     display: grid;
@@ -13,9 +13,10 @@
 }
 .projects{
     max-width: 80%;
-    margin: 50px;
+    margin: 10%;
     
-    box-shadow: 5px 5px 5px 5px #888888;
+     
+    box-shadow: 5px 5px 5px 5px #c7c7c7;
     border-radius: 20px;
 }
 .projects img{
@@ -26,29 +27,38 @@
 .projects h1{
     text-align: center;
     font-size: 1rem;
-    color: gray;
+    color: black;
 }
 .projects-description {
     text-align: center;
 }
 .projects-description a{
     text-decoration: none;
-    color: gray;
+    color: black;
     cursor: pointer;
 }
+.projects-description a:hover{
+    font-weight: bold;
+}
 @media screen and (max-width: 1100px) {
+    .portfolio h1{
+        text-align: center;
+       
+        font-size: 2rem;
+        color: black;
+    }
     .portfolio-content{
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 80%;
+        max-width: 100%;
         margin: auto;
     
     }
     .projects{
         max-width: 80%;
-        margin: 50px;
+        margin: 10%;
         
-        box-shadow: 5px 5px 5px 5px #888888;
+        box-shadow: 5px 5px 5px 5px #c7c7c7;
         border-radius: 20px;
     }
     .projects img{
@@ -59,14 +69,14 @@
     .projects h1{
         text-align: center;
         font-size: 1rem;
-        color: gray;
+        color: rgb(0, 0, 0);
     }
     .projects-description {
         text-align: center;
     }
     .projects-description a{
         text-decoration: none;
-        color: gray;
+        color: rgb(0, 0, 0);
         cursor: pointer;
     }
 

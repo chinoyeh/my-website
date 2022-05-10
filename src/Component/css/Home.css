@@ -1,15 +1,16 @@
 .home{
-    background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
-    background-size: 100% 100vh;
+    background: url('https://kntechpower.files.wordpress.com/2016/05/hi-tech-concepts-on-blue-background-header.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     margin-top: -10%;
  
 }
+
 .home-text h1{
     color:antiquewhite;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 5em;
 
     font-size: 4rem;
     font-weight: 400
@@ -18,18 +19,18 @@
 .home-text h2{
     color:antiquewhite;
     text-align: center;
-    margin-top: 300px;
+
     font-size: 3rem;
     font-weight: 500;
     letter-spacing: 2px;
 
 }
 .home-text h3{
-    color: #006994;
+    color: #7fb8ce;
     text-align: center;
   
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 3px;
 
 }
@@ -39,26 +40,27 @@
     .home-text h1{
         color:antiquewhite;
         text-align: center;
-        padding-top: 150px;
-        font-size: 3rem;
+        padding-top: 5em;
+    
+        font-size: 4rem;
         font-weight: 400
     
     }
     .home-text h2{
         color:antiquewhite;
         text-align: center;
-        margin-top: 400px;
-        font-size: 2rem;
-        font-weight: 600;
+    
+        font-size: 3rem;
+        font-weight: 500;
         letter-spacing: 2px;
     
     }
     .home-text h3{
-        color:  #006994;
+        color: #7fb8ce;
         text-align: center;
       
-        font-size: 1rem;
-        font-weight: 500;
+        font-size: 1.5rem;
+        font-weight: bold;
         letter-spacing: 3px;
     
     }

@@ -15,6 +15,9 @@ const About = () => {
              <p> A Computer Science graduate from Bowen University Iwo, Osun State.</p>
        
              <a href ='https://drive.google.com/file/d/1D2Ocq8DkAYzgjpeT9Gc6aR3QHdOFmsSe/view?usp=sharing' className='download'>  Download Resume</a>
+           
+         
+         
           </div>
       </div>
     
