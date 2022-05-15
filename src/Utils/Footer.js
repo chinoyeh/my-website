@@ -10,8 +10,9 @@ const Footer = () => {
             <li><a href=" https://github.com/chinoyeh"><i class="fa fa-github-square"></i></a> </li>
         
         </ul>
+        <p>CopyRight  &copy; 2022</p>
     </div>
   )
 }
 
-export default Footer
+export default Footer 

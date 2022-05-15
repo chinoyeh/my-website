@@ -4,14 +4,20 @@ import Navbar from '../Utils/Navbar'
 import About from './About'
 import Contact from './Contact'
 import Portfolio from './Portfolio'
+import Cube from '../Utils/Cube'
 import './css/Home.css'
 
 const Home = () => {
   return (
   <React.Fragment>
+       <Navbar/>
     <section id ='home' className='home'> 
   
-    <Navbar/>
+ 
+    <div>
+
+
+    </div>
     <div className='home-text'>
     <h1> Hi,</h1>
     <h2>It's Chinoyeh</h2>
@@ -20,6 +26,7 @@ const Home = () => {
 
     </section>
     <section id ='portfolio'>
+
 
      <Portfolio/>
 </section>

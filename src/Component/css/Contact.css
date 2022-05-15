@@ -1,6 +1,8 @@
 .contact{
     background: black;
-    padding:30px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  
 }
 .contact h1{
     text-align: center;
@@ -15,7 +17,7 @@
 }
 input{
     background: black;
-    border-radius: 50px;
+    border-radius: 10px;
     border: 2px white solid;
     height: 50px;
     margin: 20px;
@@ -50,13 +52,13 @@ button{
         
     }
     .contact form{
-        max-width: 80%;
-        margin: auto;
+        width: 100%;
+   
         display: grid;
     }
     input{
         background: black;
-        border-radius: 50px;
+        border-radius: 10px;
         border: 2px white solid;
         height: 30px;
         margin: 20px;

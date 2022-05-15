@@ -1,6 +1,8 @@
 .about{
     width: 100%;
+    margin: auto;
     margin-bottom: 50px;
+ 
 }
 .about h1{
     text-align: center;
@@ -44,7 +46,7 @@
     }
     .about h1{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1rem;
         color: rgb(0, 0, 0);
     }
     .about-content img{
@@ -53,13 +55,13 @@
     }
     .about-content div{
         
-        max-width: 70%;
+        max-width: 90%;
         margin: auto;
     }
     .about-content p{
         color: rgb(0, 0, 0);
         line-height: 50px;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
   }

@@ -1,5 +1,5 @@
 .home{
-    background: url('https://kntechpower.files.wordpress.com/2016/05/hi-tech-concepts-on-blue-background-header.jpg');
+    background: url('https://media.istockphoto.com/vectors/abstract-green-geometric-vector-background-can-be-used-for-cover-vector-id1157564828?k=20&m=1157564828&s=612x612&w=0&h=WeKFirpt0tFhAxqT-HOjmJUChInmghGFnwrBYf51wTI=');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -8,7 +8,7 @@
 }
 
 .home-text h1{
-    color:antiquewhite;
+    color:white;
     text-align: center;
     padding-top: 5em;
 
@@ -17,7 +17,7 @@
 
 }
 .home-text h2{
-    color:antiquewhite;
+    color:white;
     text-align: center;
 
     font-size: 3rem;
@@ -26,7 +26,7 @@
 
 }
 .home-text h3{
-    color: #7fb8ce;
+    color: rgb(20, 85, 20);
     text-align: center;
   
     font-size: 1.5rem;
@@ -36,32 +36,42 @@
 }
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 480px) {
+    .home{
+        background: url('https://media.istockphoto.com/vectors/abstract-green-geometric-vector-background-can-be-used-for-cover-vector-id1157564828?k=20&m=1157564828&s=612x612&w=0&h=WeKFirpt0tFhAxqT-HOjmJUChInmghGFnwrBYf51wTI=');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 2em;
+        height: 100%;
+        margin-top: -10%;
+     
+    }
     .home-text h1{
-        color:antiquewhite;
+        color:white;
         text-align: center;
-        padding-top: 5em;
+        padding-top: 3em;
     
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: 400
     
     }
     .home-text h2{
-        color:antiquewhite;
+        color:white;
         text-align: center;
     
-        font-size: 3rem;
+        font-size: 1rem;
         font-weight: 500;
         letter-spacing: 2px;
     
     }
     .home-text h3{
-        color: #7fb8ce;
+        color: rgb(20, 85, 20);
         text-align: center;
       
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
         letter-spacing: 3px;
+        margin-bottom: 3rem;
     
     }
     
