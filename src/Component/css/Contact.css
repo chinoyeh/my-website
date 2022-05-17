@@ -1,77 +1,12 @@
-.contact{
-    background: black;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  
-}
-.contact h1{
-    text-align: center;
-    color:white;
-    font-size: 3rem;
-    
-}
-.contact form{
-    max-width: 60%;
-    margin: auto;
-    display: grid;
-}
-input{
-    background: black;
-    border-radius: 10px;
-    border: 2px white solid;
-    height: 50px;
-    margin: 20px;
-    padding: 10px 20px;
-    color:white;
-}
-textarea{
-    background: black;
-    border: 2px white solid;
-    border-radius: 10px;
-    margin: 20px;
-    height: 100px;
-    padding: 10px 20px;
-    color:white;
-}
-button{
-    background: white;
-    border-radius: 15px;
-    height: 40px;
- width: 30%;
- margin: auto;
- border:none;
-    color: black;
-    font-weight: bold;
-    font-size: 1rem;
-}
-@media screen and (max-width: 1100px) {
-    .contact h1{
-        text-align: center;
-        color:white;
-        font-size: 2rem;
-        
-    }
-    .contact form{
-        width: 100%;
-   
-        display: grid;
-    }
-    input{
-        background: black;
-        border-radius: 10px;
-        border: 2px white solid;
-        height: 30px;
-        margin: 20px;
-        padding: 10px 20px;
-    }
-    textarea{
-        background: black;
-        border: 2px white solid;
-        border-radius: 10px;
-        margin: 20px;
-        height: 100px;
-        padding: 10px 20px;
+@media screen and (max-width: 480px) {
+    #sendMessageButton{
+        width: 30em;
     }
     
-
-  }
+ }
+ input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
