@@ -1,0 +1,171 @@
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 5em;
+    color: #011b01;
+    opacity: 0.8;
+}
+
+.header h3 {
+    position: absolute;
+    font-size: 3em;
+    color: #228b22;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    top: 30.5em;
+}
+
+.mainContainer {
+    padding-bottom: 3em;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+
+}
+
+.project img {
+    width: 30em;
+    border-radius: 5px;
+    height: 25em;
+    opacity: 0.3;
+
+
+}
+
+.content {
+    text-align: right;
+    width: 30%;
+    margin-left: 1em;
+}
+
+.content p {
+    background: #011b01;
+    position: absolute;
+    z-index: 1;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+    right: 17em;
+    margin-top: 0.5em;
+    width: 30%;
+
+
+    border-radius: 4px;
+    line-height: 20px;
+
+}
+
+.content h5 {
+    font-weight: 600;
+    font-size: 0.7em;
+    margin-top: 8em;
+
+}
+
+.content a {
+    margin-top: 5em;
+}
+
+.showMore {
+    display: flex;
+    justify-content: center;
+}
+
+.showMore button {
+    background: #228b22;
+    border: none;
+    color: white;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+    margin-top: 3em;
+    font-size: 1em;
+    box-shadow: 2px 0px 36px 0px rgba(0, 70, 0, 0.75);
+    -webkit-box-shadow: 2px 0px 36px 0px rgba(0, 70, 0, 0.75);
+    -moz-box-shadow: 2px 0px 36px 0px rgba(0, 70, 0, 0.75)
+}
+
+
+@media (max-width:600px) {
+    .header h1 {
+        font-size: 3em;
+        color: #011b01;
+        opacity: 0.8;
+    }
+
+    .header h3 {
+        position: absolute;
+        font-size: 1.5em;
+        color: #228b22;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        top: 79.3em;
+    }
+
+    .project img {
+        width: 100%;
+        border-radius: 5px;
+        height: 25em;
+        opacity: 0.3;
+
+
+    }
+
+    .project {
+        display: grid;
+        margin: 2em 0;
+
+    }
+
+    .content {
+        text-align: left;
+        position: absolute;
+        z-index: 1;
+
+        width: 100%;
+        margin-left: 1em;
+    }
+
+    .content p {
+
+        position: relative;
+
+        font-weight: 500;
+
+        font-size: 0.8em;
+        right: 0em;
+        width: 70%;
+        padding: 0;
+
+        margin-top: 0.5em;
+
+        background: none;
+
+
+        border-radius: 4px;
+        line-height: 20px;
+
+    }
+
+    .content h5 {
+        font-weight: 600;
+        font-size: 0.7em;
+        margin-top: 1em;
+
+    }
+
+    .content a {
+        margin-top: 0.5em;
+    }
+}

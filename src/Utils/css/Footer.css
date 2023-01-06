@@ -1,0 +1,33 @@
+.footer{
+    background: black;
+    color:white;
+        padding: 1em;
+        border-top: 1px solid white;
+
+}
+.footer p{
+    text-align: center;
+}
+.footlinks{
+    margin: 0;
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+font-size: 1.5rem;
+
+}
+.footlinks a{
+    color:white;
+}
+@media screen and (max-width: 480px) {
+    .footlinks{
+        margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.5rem;
+    
+    
+    }
+    
+}

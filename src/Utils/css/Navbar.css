@@ -1,0 +1,97 @@
+.navbar{
+    overflow: hidden;
+    background: black;
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+
+}
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 0;
+    padding-top: 1%;
+  
+ 
+}
+.links{
+    display: none;
+}
+.hidelinks{
+    display: none;
+}
+.showlinks{
+    display: none;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color:white;
+    padding: 100 auto;
+    font-weight: bold;
+  
+}
+@media screen and (max-width: 480px) {
+
+ .links{
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     background: black; 
+    
+     margin-top: 0;
+     margin-bottom: 0;
+     
+ }
+ .links h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    letter-spacing: 2px;
+
+ }
+ .hidelinks{
+     display: none;
+ }
+ .navlinks{display: none;}
+ 
+ .links button{
+  
+    padding-right: 30px;
+ 
+     border-style: none;
+     color: white;
+     background: none;
+     font-size: 1.3rem;
+ }
+ .showlinks{
+    display: grid;
+    background: black ;
+
+    list-style: none;
+    margin-top: -20px;
+    padding: 10px;
+    margin-bottom: -10px;
+  
+ 
+}
+.showlinks a{
+    margin: 20px auto;
+    padding: 20px 20px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.showlinks li{
+ padding-bottom: 10px;
+ padding-top: 10px;
+
+    border-bottom: 1px solid white;
+}
+
+  }

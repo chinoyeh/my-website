@@ -1,0 +1,96 @@
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 5em;
+    color: #011b01;
+    opacity: 0.8;
+}
+
+.header h3 {
+    position: absolute;
+    font-size: 3em;
+    color: #228b22;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    top: 64.3em;
+}
+
+.container {
+    padding-bottom: 3em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content form {
+    width: 40%;
+}
+
+.formGroup input {
+    background: inherit;
+    outline: none;
+    border: 1px solid #011b01;
+    width: 100%;
+    margin: 0.5em 0;
+    height: 2em;
+    padding: 0.5em 1em;
+    color: white;
+}
+
+.formGroup textarea {
+    background: inherit;
+    outline: none;
+    border: 1px solid #011b01;
+    width: 100%;
+    margin: 0.5em 0;
+    height: 8em;
+    padding: 0.5em 1em;
+    color: white;
+}
+
+
+.button {
+    background: #228b22;
+    border: none;
+    color: white;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+    margin-top: 3em;
+    font-size: 1em;
+    width: 107%;
+    box-shadow: 2px 0px 36px 0px rgba(0, 70, 0, 0.75);
+    -webkit-box-shadow: 2px 0px 36px 0px rgba(0, 70, 0, 0.75);
+    -moz-box-shadow: 2px 0px 36px 0px rgba(0, 70, 0, 0.75)
+}
+
+@media (max-width:600px) {
+    .header h1 {
+        font-size: 3em;
+        color: #011b01;
+        opacity: 0.8;
+    }
+
+    .header h3 {
+        position: absolute;
+        font-size: 1.5em;
+        color: #228b22;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        top: 143.5em;
+    }
+
+    .content form {
+        width: 80%;
+    }
+
+}

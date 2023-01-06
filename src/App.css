@@ -1,0 +1,33 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: black;
+  color: white;
+
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 0 2em;
+}
+
+.home-content {
+
+  padding: 1.5em 2em;
+  height: 100vh;
+  width: fit-content;
+
+
+
+
+  background-image: linear-gradient(to bottom, #000000, #011b01, #004600, #011b01, #000000);
+}
