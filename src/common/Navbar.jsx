@@ -42,27 +42,27 @@ function Navbar(props) {
 
             </div>
             <ul className={tog ? styles.navlinkMobile : styles.hidden}>
-                <li>
+                <li onClick={toggler}>
                     <a href="#home">
                         Home
                     </a>
                 </li>
-                <li>
+                <li onClick={toggler}>
                     <a href='#about'>
                         About
                     </a>
                 </li>
-                <li>
+                <li onClick={toggler}>
                     <a href='#portfolio'>
                         Portfolio
                     </a>
                 </li>
-                <li>
+                <li onClick={toggler}>
                     <a href="#blog">
                         Blog
                     </a>
                 </li>
-                <li>
+                <li onClick={toggler}>
                     <a href='#contact'>
                         Contact Me
                     </a>
